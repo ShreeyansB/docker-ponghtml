@@ -1,7 +1,6 @@
 # Base Image
 FROM node:alpine
 
-
 # Dependencies
 WORKDIR /usr/app
 COPY ./package.json ./
